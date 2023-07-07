@@ -1,0 +1,140 @@
+:root{
+    --pale-blue: hsl(225,100%,94%);
+ --Bright-blue: hsl(245,75%,52%);
+--very-pale-blue: hsl(225,100%,98%);
+--desaturated-blue: hsl(224,23%,55%);
+--dark-blue : hsl(223,47%,23%); 
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/bg\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: "red hat display",sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+
+.card{
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px auto;
+
+
+    
+}
+
+.child{
+    color: red;
+}
+.title{
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 32px;
+
+}
+.hero-image{
+    width: 100%;
+
+
+}
+.container{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.container > *{
+    margin: 13px 0;
+
+
+
+}
+.order-description{
+    line-height: 25px;
+
+}
+.plan-container{
+    font-size: 16px;
+    background-color:var(--very-pale-blue) ;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.plan-container a{
+    color: var(--Bright-blue);
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.plan-container a:hover {
+    opcity:0.8;
+    text-decoration: none;
+}
+.plan-container strong{
+    color: var(--dark-blue);
+
+}
+.plan-description{
+    line-height:20px;
+    margin-right: 75px;
+}
+    
+button{
+    width: 100;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.proceed-button{
+    background-color: var(--Bright-blue);
+    padding: 1rem;
+    color: white;
+    box-shadow: 0 20px 30 p -8px rgb(53, 22, 230);
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 12px;
+
+}
+.proceed-button:hover{
+    opacity: 0.8;
+}
+.cancel-button{
+    background-color: white;
+    color:var( --desaturated-blue);
+    border: none;
+    margin-top: 22px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+.cancel-button:hover{
+    color: black;
+
+}
